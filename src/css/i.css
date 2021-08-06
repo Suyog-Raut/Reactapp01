@@ -1,0 +1,45 @@
+p {
+  font-weight: 500;
+  padding: 0 4px;
+}
+
+.card {
+  margin: 1rem;
+  padding: 1rem;
+  background-color: #e0eaf5;
+  width: 20%;
+  border-radius: 8px 8px 8px 8px;
+  text-align: center;
+
+}
+
+.card-head {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+
+.border-1 {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+      justify-content: center;
+    align-items: center;
+}
+
+img {
+  padding-right: 7px;
+}
+
+@media screen and (max-width: 1300px) {
+  .card {
+    width: 40%;
+  }
+}
+
+@media screen and (max-width: 700px) {
+  .card {
+    width: 80%;
+  }
+}
